@@ -1,0 +1,285 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+li{list-style: none;}
+body{
+   margin: 1%;
+}
+/* контеинер меню усдуг и поиска товаров */
+.contacts-menu-find {
+text-align: center;
+}
+/* заголовок магазина и поиск */
+.contacts-menu-wraper {
+   display: flex;
+}
+.zakroma-shop-zagolovok {
+   text-align: center;
+   font-size: 13px;
+   color: rgb(240, 3, 153);
+}
+/* меню и поиск (контеинер) */
+.contacts-menu-find {
+   width: 73%;
+   margin: 0 2%;
+}
+/* меню услуг */
+.zakroma-shop-menu {
+   margin: 11px;
+}
+.zakroma-shop-menu ul{
+   width: 50%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin: auto;
+}
+/* поиск товаров чрез input */
+.zakroma-shop-find_input-conteiner {
+   background-color: aqua;
+   margin: auto;
+}
+.zakroma-shop-find_input_text{
+   width: 60%;
+   padding: 10px;
+   margin: 2%;
+}
+.zakroma-shop-find_input_button{
+   padding: 10px 17px;
+   background-color: rgb(240, 3, 153);
+   border: 0;
+   color: white;
+   cursor: pointer;
+   border-radius: 25px;
+   font-size: 15px;
+}
+/* Котрейнер корзина-телефоны */
+.number-phone {
+   text-align: right;
+   font-size: 21px;
+}
+.number-phone span{
+   color: rgb(240, 3, 153);
+}
+
+/* Корзина */ 
+.corzina-shop-content {
+display: flex;
+}
+.corzina-shop-content p{
+   color: aqua;
+}
+.corzina-shop-zakaz {
+   display: flex;
+}
+/* контакты центр */
+.contacts-center {
+   display: flex;
+   font-size: 21px;
+}
+.contacts-center span{
+   color: rgb(240, 3, 153);
+}
+/* Каталог товаров картинки */
+.catalog-images-grid{
+   display: grid;
+   grid-template-columns: repeat(auto-fill, 79px);
+   text-align: center;
+   grid-column-gap: 15px;
+}
+/* контент магазина */
+.content-shop {
+   display: flex;
+}
+/* каталог товаров */
+.catalog-tovarov-header{
+   background-color: rgb(240, 3, 153);
+   font-size: 22px;
+   text-align: center;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.catalog-tovarov {
+   flex: 10%;
+}
+.catalog-tovarov ul{
+   position: relative;
+}
+.catalog-tovarov-list {
+   box-shadow: 1px 3px 8px;
+}
+.catalog-tovarov-list li {
+   padding: 6px; 
+   font-size: 18px;
+   cursor: pointer;
+}
+.catalog-tovarov-list li:hover{
+   color: red;
+   padding: 11px 0 11px 22px;
+}
+/* новинки каталога */
+.new-catalog {
+   flex: 75%;
+}
+.new-catalog-header {
+   display: flex;
+   flex-direction:column;
+   text-align: center;
+   background-color: aqua;
+   font-size: 17px;
+   width: 90%;
+   margin: auto;
+}
+.new-catalog-menu ul{
+display: grid;
+grid-template-columns: repeat(auto-fill, 200px);
+margin-top: 3%;
+}
+.new-catalog-menu li{
+   display: flex;
+   flex-direction:column;
+   justify-content: space-between;
+   margin: 18px;
+   text-align: center;
+   font-size: 16px;
+}
+.new-catalog-menu img {
+   width: 100%;
+}
+/* подробнее о товаре из новинок */
+.new-catalog-input {
+   background-color: rgb(240, 3, 153);
+   border: 0;
+   padding: 11px;
+   margin: 13px;
+   font-size: 15px;
+   color: white;
+}
+.new-catalog-input:hover{
+   text-decoration: underline;
+   cursor: pointer;
+}
+/* меню внизу и информация о магазине */
+.menu-bottom-line {
+   border: 3px solid rgb(240, 3, 19);
+   margin: 17px 0;
+}
+.menu-informashion-wraper{
+   display: grid;
+   grid-template-columns: 25% 48% 26%;
+   align-items: center;
+}
+.menu-bottom ul{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(100px,1fr)); 
+   align-items: right;
+   justify-content: end;
+   text-align: center;
+   margin: 17px;
+} 
+.menu-bottom li:hover{
+   cursor: pointer;
+   color: rgb(150, 149, 149);
+   text-decoration-line:underline;
+}
+.menu-bottom-li-border {
+   border-left: 1px solid rgb(240, 3, 153);
+}
+
+/* стили вложенного меню каталогов товаров */
+.tubing_dropdown-li{
+   position: relative;
+}
+
+/* выпадающее меню с одной колонкой */
+.tubing_dropdown-li ul{
+   position: absolute;
+   left: 100%;
+   top:-999em;
+   width: 100%;
+   opacity: 1;
+   transition: 2s opasity;
+   color: black;
+   box-shadow: 1px 2px 13px;
+   background-color: white;
+}
+.tubing_dropdown {
+   text-align: left;
+}
+/* выпадающее меню с двумя колонками */
+.tubing_dropdown-li-two_colums ul{
+   position: absolute;
+   left: 100%;
+   top:-999em;
+   width: 200%;
+   opacity: 1;
+   transition: 2s opasity;
+   color: black;
+   box-shadow: 1px 2px 13px;
+   background-color: white;
+}
+.tubing_dropdown-two {
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   text-align: left;
+}
+.tubing_dropdown-li-two_colums:hover .tubing_dropdown-two{
+   top: 0;
+   opacity: 1;
+}
+/* выпадающее меню с тремя колонками */
+
+.tubing_dropdown-li-three_colums ul{
+   position: absolute;
+   left: 100%;
+   top:-999em;
+   width: 300%;
+   opacity: 1;
+   transition: 2s opasity;
+   color: black;
+   box-shadow: 1px 2px 13px;
+   background-color: white;
+}
+.tubing_dropdown-three {
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   text-align: left;
+}
+.tubing_dropdown-li-three_colums:hover .tubing_dropdown-three{
+   top: 0;
+   opacity: 1;
+}
+/* выпадающее меню пять эементов */
+
+.tubing_dropdown-li-five_colums ul{
+   position: absolute;
+   left: 100%;
+   top:-999em;
+   width: 400%;
+   opacity: 1;
+   transition: 2s opasity;
+   color: black;
+   box-shadow: 1px 2px 13px;
+   background-color: white;
+}
+.tubing_dropdown-five {
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+   text-align: left;
+}
+.tubing_dropdown-li-five_colums:hover .tubing_dropdown-five{
+   top: 0;
+   opacity: 1;
+}
+a{
+   color: black;
+   text-decoration: none;
+}
+a:hover{
+   padding: 0px;
+   color: red;
+}
+.tubing_dropdown-li:hover .tubing_dropdown{
+   top: 0;
+   opacity: 1;
+}
