@@ -1,0 +1,31 @@
+.conteiner{
+  
+  width: 1200px;
+  height: 500px;
+  background-color: blue;
+}
+.slider{
+  overflow: hidden;
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border: 3px solid red ;
+  margin: 30px auto;
+  top: 25%;
+}
+.slider-line{
+  display: flex;
+  position: relative;
+  left: 0;
+}
+.slider-line img{
+  width: 350px;
+  height: 250px;
+}
+
+.button button{
+  margin: 30px ;
+  padding: 10px;
+  font-size: 23px;
+  border-radius: 11px;
+}
