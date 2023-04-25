@@ -1,0 +1,20 @@
+.animashion{
+   width: 111px;
+   height: 111px;
+   background-color: aqua;
+   border-radius: 23px;
+   transition: transform 1s;
+   margin: 13%;
+}
+.animashion{
+   box-shadow: 2px 3px 11px darkblue,
+               -2px 3px 11px darkblue,
+               2px -3px 11px darkblue,
+               -2px -3px 11px darkblue;
+}
+.animashion:hover {
+   transform: rotate(150deg);
+   transition: 2s;
+   cursor: pointer;
+   
+}
