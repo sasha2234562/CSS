@@ -1,0 +1,44 @@
+.cons {
+   margin: 100px;
+   border: 12px solid gray;
+   padding: 24px;
+   height: 300px;
+   width: 290px;
+   overflow:scroll;
+}
+.grid {
+   font-size: 42px;
+   text-align: center;
+   display: grid;
+   justify-content: center;
+
+   /* настройки колонок   minmax - минимальная и максимальмая ширина ,
+    в зависимости от разрешения экрана(требуется для адаптивной вёрстки)*/ 
+   /* grid-template-columns: minmax(100px, 500px) 100px 100px; */
+
+   /* настройки рядов */
+   grid-template-rows: 100px 100px 100px;
+
+   /* отступы между колонками */
+   grid-column-gap: 10px;
+
+   /* отступы между рядами */
+   grid-row-gap: 15px;
+   /* 
+
+   сокращенная запись отступов:
+   grid-gap: 10px 11px;
+    */
+    /* автоматические колонки  auto-fill- делает переносы ячеек на новые строки*/
+   /* grid-template-columns: repeat(auto-fill, 100px); */
+
+    /* автоматические колонки  auto-fit- делает переносы ячеек на новые строки, что бы занять все пространство в строке*/
+   grid-template-columns: repeat(auto-fit, minmax( 100px, 1fr));
+}
+.grid div {
+   border: 1px solid black;
+   background-color: aqua;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
