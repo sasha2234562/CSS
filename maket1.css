@@ -1,0 +1,100 @@
+
+/*Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.bigred{
+    font-size: 20px;
+    color: red;
+}
+.stolb li{
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    width: 210px;
+}
+
+
+.stolb1{
+    background-color: royalblue;
+    margin-left: 18px;
+}
+.stolb2{
+    background-color: chartreuse;
+}
+.stolb3{
+    background-color: orange;
+}
+.stolb4{
+    background-color: blueviolet;
+}
+.stolb5{
+    background-color: red;
+}
+.stolb6{
+    background-color: crimson;
+}
+.menu{
+   float: left;
+}
+.menu li{
+    display: block;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 60px 90px;
+    font-size: 23px;
+    margin: 5px 26px 2px 16px;
+    width: 250px;
+}
+.foto{
+    float:right;
+    height: 600px;
+    width: 900px;
+    padding: 43px 25px;
+}
+body{
+    background-color: darkgrey;
+}
+.tree{
+    display: flex;
+    align-items:stretch;
+    border: 5px solid red;
+
