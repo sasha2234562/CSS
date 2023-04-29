@@ -1,0 +1,203 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.menuOne{
+ display: flex;
+ justify-content: space-around;
+}
+
+.menuLeft{
+  margin-top: 25px;
+ text-align: center;
+}
+.menuLeftTop{
+
+  color:rgb(146, 144, 144);
+  font-size: 15px;
+}
+.menuLeftTop ul{
+  display: inline-flex;
+}
+.menuLeftTop li{
+  border-bottom: 1px solid #000;
+  margin: 15px;
+}
+.menuLeftBotton ul{
+  display: inline-flex;
+}
+.menuLeftBotton li{
+  margin: 25px;
+}
+.menuLeftBotton li:hover{
+  border-bottom: 3px solid rgb(34, 80, 28);
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.menuImg img{
+  position: relative;
+  height: 200px;
+  width: 240px;
+  right: 50%;
+}
+
+.menuRight{
+  margin: 25px 25px;
+  text-align: right;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+.menuRight p{
+ padding: 12px;
+}
+.menuYslygi{
+  background-color: rgb(41, 90, 43);
+  margin-top: 23px;
+  margin: 0 25px;
+  text-align: center;
+}
+.menuYslygi li{
+margin: 20px 10px;
+display: inline-flex;
+font-size: 23px;
+text-align: center;
+}
+.menuYslygi li:hover{
+  color: rgb(12, 112, 37);
+  cursor: pointer;
+}
+#vkladka :hover{
+ 
+}
+.slider{
+  display: flex;
+  justify-content:space-evenly;
+  height: 300px;
+  background-color: rgb(0, 0, 0);
+  margin: 25px;
+
+}
+.slider p{
+  font-size: 43px;
+  position: relative;
+  top: 41%;
+  color: rgb(255, 255, 255);
+}
+.magazine{
+  display: flex;
+  justify-content:space-evenly;
+  align-items:center;
+  background-color: rgb(204, 152, 187);
+  height: 530px;
+  margin: 0 25px;
+}
+
+.UNGLE{
+  font-size: 34px;
+  margin: 35px;
+}
+.magazineText{
+ display: flex;
+ justify-content:space-around;
+ text-align: center;
+ 
+}
+.magazineText p{
+  width: 400px;
+  font-size: 21px;
+}
+.magazineText img{
+  height: 200px;
+}
+.magazineRight img{
+height: 330px;
+width: 330px;
+transform: rotate(-22deg);
+}
+.vkladka{
+  display: flex;
+  justify-content:space-around;
+  font-size: 19px;
+  display: none;
+}
+.vkladka1 img{
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+}
+.vkladka2 img{
+  width: 150px;
+  height: 150px;
+}
+.vkladka3 img{
+  width: 150px;
+  height: 150px;
+}
+.vkladka4 img{
+  width: 150px;
+  height: 150px;
+}
+.vkladka5 img{
+  width: 150px;
+  height: 150px;
+}
+.vkladka6 img{
+  width: 150px;
+  height: 150px;
+}
+.vkladka7 img{
+  width: 150px;
+  height: 150px;
+}
+.vkladka8 img{
+  width: 150px;
+  height: 150px;
+}
+.vkladka9 img{
+  width: 150px;
+  height: 150px;
+}
+.vkladka10 img{
+  width: 150px;
+  height: 150px;
+}
+.vkladka11 img{
+  width: 150px;
+  height: 150px;
+}
