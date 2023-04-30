@@ -1,0 +1,22 @@
+.for{
+border: 5px solid rgb(255 0 0);
+    border-radius: 50px;
+    margin: 30px;
+}
+
+.two{
+  padding: 50px;
+   
+}
+.tree{
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    border: 3px solid green;
+}
+.yess{
+    
+    display: inline-block;
+    border: 3px solid aqua;
+    background-color: aqua;
+}
