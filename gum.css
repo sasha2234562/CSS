@@ -1,0 +1,268 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+.conteinerZagolovok{
+background-color: black;
+height: 71px;
+}
+.conteinerZagolovokImg{
+  color: yellow;
+ margin-left: 18%;
+ display: flex;
+}
+#nemiga{
+  border: 2px solid yellow;
+  margin-bottom: 10px;
+}
+.conteinerZagolovokImg img{
+  width: 42px;
+  height: auto;
+  margin: 14px 4px;
+}
+.conteinerZagolovok p{
+  padding: 12px 13px;
+  margin-top: 15px;
+}
+
+.conteinerYellow{
+  background-color: yellow;
+  display: flex;
+  height: 54px;
+  position: relative;
+  border-bottom: 2px solid black;
+}
+.conteinerYellow p{
+  margin-left: 15px;
+}
+#gum24{
+font-size: 29px;
+border: 1px solid black;
+border-radius: 8px;
+text-align: center;
+margin: 2px;
+padding: 2px 5px;
+margin-left: 55px;
+margin-right: 34px;
+}
+
+.conteinerYellow li{
+  display: inline-flex;
+  text-align: center;
+  padding: 15px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 23px;
+}
+.conteinerYellow li:hover{
+ color: rgb(148, 148, 148);
+ transition: 00.5s;
+}
+#one{
+background-color: yellow;
+font-size: 20px;
+padding: 7px 88px;
+color: rgba(0, 0, 0, 0.699);
+}
+#toBuy{
+  background-color: black;
+  padding: 13px;
+  color: beige;
+  border-radius: 10px;
+}
+#toBuy:hover{
+ background-color: rgb(194, 226, 226);
+}
+.backgoundImg{
+  background-image: url('/img/fon.jpg');
+  background-repeat: no-repeat;
+  height: 600px;
+  background-size: 100% auto;
+  position: relative;
+}
+.backgroundImgText{
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+.backgroundImgText h1{
+  color: yellow;
+  font-size: 55px;
+}
+.backgroundImgText span{
+  background-color: yellow;
+  padding: 13px 19px;
+  color: black;
+  font-size: 19px;
+  font-family: fantasy;
+}
+#cena{
+  color: beige;
+  font-size: 29px;
+  padding: 19px 0 0 0;
+  font-family:sans-serif
+}
+#clock{
+  color: beige;
+  font-size: 27px;
+  padding:  0 0 20px 0;
+  font-family: monospace;
+}
+.prichina{
+  font-size: 31px;
+  text-align: center;
+  margin-top: 39px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.808);
+
+}
+.spisokPrichin{
+  display: flex;
+  margin: 44px 0;
+  font-size: 16px;
+  justify-content:space-evenly;
+
+}
+.spisokPrichin img{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 43px;
+  border-radius: 14px;
+  border: 5px solid ;
+  transform: rotate(+20deg);
+  margin-left: 25px;
+}
+.spisokPrichin1 h2{
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+.spisokPrichin1{
+  width: 200px;
+  font-family:'Times New Roman', Times, serif;
+}
+.backgoundImgTwo{
+  background-image: url('/img/gerl.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% ;
+  height: 400px;
+  position: relative;
+  margin-top: 19px;
+  border-radius: 20px;
+}
+.backgoundImgTwoText{
+  position: absolute;
+  right: 10%;
+  top: 6%;
+  color: beige;
+}
+.backgoundImgTwoText{
+  text-align: right;
+  margin: 43px;
+}
+#forma{
+  font-size: 37px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#zanytuy{
+   font-size: 25px;
+   font-family:Arial, Helvetica, sans-serif;
+}
+#cena{
+  font-size: 34px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: yellow;
+}
+.podrobnee{
+  padding: 12px 21px;
+  font-size: 22px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  background-color: yellow;
+  position: relative;
+  left: 46%;
+  top: 306px;
+}
+.cenaPrise{
+  margin: 40px;
+  font-size: 29px;
+  font-family: fantasy;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.89);
+}
+.table{
+  margin-left: 13%;
+  border-collapse: collapse;
+}
+.table th{
+  background-color: rgb(231, 231, 231);
+  font-size: 18px;
+  padding:  20px  29px ;
+  border-collapse: collapse;
+  text-align: center;
+}
+.table td{
+  padding: 0px 9px;
+  height: 90px;
+  font-size: 15px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+#button{
+  color: beige;
+  background-color:black;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+#button:hover{
+  background-color: yellow;
+}
+#tableFon{
+  background-color: rgb(230, 230, 230);
+}
+#tableFon:hover{
+  background-color: yellow;
+  transition: 1s;
+}
+.table tr:hover{
+  background-color: yellow;
+  transition: 0.5s;
+}
+
