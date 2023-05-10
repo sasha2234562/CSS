@@ -39,31 +39,343 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
 body{
-  height: 100vh;
+ background-image: url('/img/depositphotos_72123829-stock-photo-room-with-pendant-lamp.jpg');
+ background-position: 0 0;
+ background-size: 100% auto;
+ min-width: 1300px;
 }
-video{
-  position: fixed;
-  left: 0;
-  min-width: 100%;
+
+.map{
+  background-color: rgb(255 0 0);
+  color: white;
+  font-size: 19px;
+	text-align: center;
 }
-h1{
-  position: relative;
-  top: 50%;
-  text-align: center;
-  color: rgb(241, 11, 11);
-  font-size: 56px;
-  animation-name: sasha;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  padding: 10px;
-  border-radius: 40px;
-  border-block-width: 100px
-  ;
+
+.map li{
+  display: inline-block;
+  padding: 14px 18px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	cursor: pointer;
 }
-@keyframes sasha {
-  0% {color: rgb(26, 24, 173);}
-  20% {background-color: yellow;}
-  40%{color: blue;}
-  56%{color: darkmagenta;}
-  70%{border: 3px solid royalblue;}
+.map li:hover{
+  text-decoration: underline;
+}
+.fotoOne {
+	background-image: url('/img/doL1GzZlpEE.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	height: 350px;
+	width: 1348px;
+	background-size: 100% auto;
+	position: relative;
+	padding: 33px;
+}
+.fotoOne h2{
+	color: rgba(250, 28, 28, 0.959);
+	font-size: 28px;
+	padding: 37px  0 9px ;
+}
+.fotoOne h1{
+	font-size: 55px;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	color: rgba(250, 28, 28, 0.959);
+	text-shadow: 2px 3px green, 1px 2px gold;
+}
+.fotoOne p{
+	font-size: 19px;
+	margin-top: 32px;
+}
+.fotoOne h3{
+	color: rgba(250, 28, 28, 0.959);
+	font-size: 44px;
+	position: absolute;
+	right: 159px;
+	bottom: 47px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+	text-shadow: 2px 4px 4px rgb(28, 36, 100);
+}
+.menu{
+	display: block;
+	background-color: rgba(250, 28, 28, 0.959);
+	text-align: center;
+	margin: 0 63px 45px ;
+	border-radius: 12px;
+
+}
+.menu li{
+	display: inline-block;
+	padding: 13px;
+	font-size: 21px;
+	transition: 1s;
+}
+.menu li:hover{
+	background-color: rgb(194, 0, 0);
+	cursor: pointer;
+}
+.franshiza{
+	display: flex;
+	height: 400px;
+	background-color: #fff;
+	margin: 0 63px;
+	border-radius: 12px;
+}
+.franshiza p{
+	font-size: 18px;
+	margin-left: 20px;
+}
+.imgGerl img{
+	height: 400px;
+	cursor: pointer;
+}
+.franshizaImg img{
+	margin: 45px 150px ;
+	cursor: pointer;
+}
+.yarlak{
+	display: flex;
+	flex-wrap: wrap;
+	color: white;
+	margin: 43px;
+	text-align: left;
+}
+.yarlak img{
+	padding: 41px 0 35px;
+}
+.yarlakOne{
+flex: 0 0 50%;
+}
+.yarlakTwo{
+	flex: 0 0 50%;
+}
+.yarlak h2{
+	font-size: 30px;
+	margin: 14px 0;
+}
+.yarlak p{
+	font-size: 21px;
+}
+
+.tour{
+	display: flex;
+	justify-content: center;
+	height: 200px;
+	padding: 23px 0;
+}
+.club{
+	color: white;
+	text-align: center;
+	font-size: 32px;
+	cursor: pointer;
+	border-bottom: 3px solid rgb(253, 216, 3);
+	margin: auto;
+	padding-bottom: 7px;
+	width: 170px;
+}
+
+.addressImg{
+	display:flex;
+	position: absolute;
+	margin: 70px 120px;
+  padding-right: 4px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+.text{
+	position: relative;
+	font-size: 23px;
+	top: 19%;
+}
+
+.imgOne{
+	background-image: url(/img/one.jpg);
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 250px;
+	border: 3px solid red;
+	background-size: 100% 100%;
+	margin-bottom: 7px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.imgOne :hover{
+	text-shadow: 2px 1px yellow;
+	width: 400px;
+	height: 350px;
+}
+
+.imgTwo{
+	background-image: url(/img/two.jpg);
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 250px;
+	border: 3px solid red;
+	position: 0 0 ;
+	background-size: 100% 100%;
+	margin-bottom: 7px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.imgTwo :hover{
+	text-shadow: 2px 1px yellow;
+}
+.imgTree{
+	background-image: url(/img/thee.jpg);
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 250px;
+	border: 3px solid red;
+	position: 0 0 ;
+	background-size: 100% 100%;
+	margin-bottom: 7px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.imgTree :hover{
+	text-shadow: 2px 1px yellow;
+}
+.imgFour{
+	background-image: url(/img/four.jpg);
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 250px;
+	border: 3px solid red;
+	position: 0 0 ;
+	background-size: 100% 100%;
+	margin-bottom: 7px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.imgFour :hover{
+	text-shadow: 2px 1px yellow;
+}
+.imgFive{
+	background-image: url(/img/five.jpg);
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 250px;
+	border: 3px solid red;
+	position: 0 0 ;
+	background-size: 100% 100%;
+	margin-bottom: 7px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.imgFive :hover{
+	text-shadow: 2px 1px yellow;
+}
+.imgSix{
+	background-image: url(/img/six.jpg);
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 250px;
+	border: 3px solid red;
+	position: 0 0 ;
+	background-size: 100% 100%;
+	margin-bottom: 7px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.imgSix :hover{
+	text-shadow: 2px 1px yellow;
+}
+.imgSeven{
+	background-image: url(/img/siven.jpg);
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 250px;
+	border: 3px solid red;
+	position: 0 0 ;
+	background-size: 100% 100%;
+	margin-bottom: 7px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.imgSeven :hover{
+	text-shadow: 2px 1px yellow;
+}
+.imgEitch{
+	background-image: url(/img/eichi.jpg);
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 250px;
+	border: 3px solid red;
+	position: 0 0 ;
+	background-size: 100% 100%;
+	margin-bottom: 7px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.imgEitch :hover{
+	text-shadow: 2px 1px yellow;
+}
+.imgNine{
+	background-image: url(/img/nine.jpg);
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 250px;
+	border: 3px solid red;
+	position: 0 0 ;
+	background-size: 100% 100%;
+	margin-bottom: 7px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.imgNine :hover{
+	text-shadow: 2px 1px yellow;
+}
+.imgTen{
+	background-image: url(/img/ten.jpg);
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 250px;
+	border: 3px solid red;
+	position: 0 0 ;
+	background-size: 100% 100%;
+	margin-bottom: 7px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.imgTen :hover{
+	text-shadow: 2px 1px yellow;
+}
+.imgEleven{
+	background-image: url(/img/eleven.jpg);
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 250px;
+	border: 3px solid red;
+	position: 0 0 ;
+	background-size: 100% 100%;
+	margin-bottom: 7px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.imgEleven :hover{
+	text-shadow: 2px 1px yellow;
+}
+.imgTwel{
+	background-image: url(/img/twel.jpg);
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 250px;
+	border: 3px solid red;
+	position: 0 0 ;
+	background-size: 100% 100%;
+	margin-bottom: 7px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.imgTwel :hover{
+	text-shadow: 2px 1px yellow;
+}
+.addressImgOne{
+	margin-right: 7px;
+}
+.addressImgTwo{
+	margin-right: 7px;
+}
+.addressImgTree{
+	margin-right: 7px;
 }
