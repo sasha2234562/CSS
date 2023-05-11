@@ -1,44 +1,319 @@
-.cons {
-   margin: 100px;
-   border: 12px solid gray;
-   padding: 24px;
-   height: 300px;
-   width: 290px;
-   overflow:scroll;
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
 }
-.grid {
-   font-size: 42px;
-   text-align: center;
-   display: grid;
-   justify-content: center;
-
-   /* настройки колонок   minmax - минимальная и максимальмая ширина ,
-    в зависимости от разрешения экрана(требуется для адаптивной вёрстки)*/ 
-   /* grid-template-columns: minmax(100px, 500px) 100px 100px; */
-
-   /* настройки рядов */
-   grid-template-rows: 100px 100px 100px;
-
-   /* отступы между колонками */
-   grid-column-gap: 10px;
-
-   /* отступы между рядами */
-   grid-row-gap: 15px;
-   /* 
-
-   сокращенная запись отступов:
-   grid-gap: 10px 11px;
-    */
-    /* автоматические колонки  auto-fill- делает переносы ячеек на новые строки*/
-   /* grid-template-columns: repeat(auto-fill, 100px); */
-
-    /* автоматические колонки  auto-fit- делает переносы ячеек на новые строки, что бы занять все пространство в строке*/
-   grid-template-columns: repeat(auto-fit, minmax( 100px, 1fr));
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
-.grid div {
-   border: 1px solid black;
-   background-color: aqua;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.conteiner{
+	margin: 43px;
+}
+.blizkoAdress{
+  color: rgb(146, 23, 23);
+  font-size: 45px;
+}
+.blizko{
+	margin-left: 41px;
+}
+.blizkoNovosti{
+  font-size: 21px;
+}
+.conteinerMenu{
+display: flex;
+margin-top: 21px;
+border-bottom: 1px solid;
+box-shadow: 1px 3px 9px ;
+cursor: pointer;
+}
+.conteinerMenuTwo{
+  margin-left: 42px;
+}
+
+.menu ul{
+	margin-bottom: 20px;
+	background-color: aliceblue;
+  display:flex;
+  border-bottom: 1px solid rgb(165, 165, 165);
+ 
+}
+.menu li{
+  font-size: 26px;
+  padding: 0 14px;
+}
+.conteinerMenuAdress ul{
+  display: flex;
+  margin: 10px 111px ;
+  font-size: 21px;
+}
+.conteinerMenuAdress li{
+  padding: 0 21px;
+}
+.zagolovokH1{
+	font-size: 45px;
+	margin: 41px;
+}
+.spisok{
+	margin-bottom: 32px;
+	display: flex;
+	font-size: 18px;
+	justify-content:space-evenly;
+	cursor: pointer;
+	width: 70%;
+}
+
+
+
+.spanRayon{
+	background-color: lightslategray;
+	padding: 10px 59px;
+	border: 1px solid blue;
+}
+
+.spanRayonTwo{
+	
+	background-color: lightslategray;
+	padding: 10px 59px;
+	border: 1px solid blue;
+}
+.spanRayonThree{
+	background-color: lightslategray;
+	padding: 10px 59px;
+	border: 1px solid blue;
+}
+.one{
+	display: none;
+}
+.two{
+	display: none;
+}
+.three{
+	display: none;
+}
+.hover{
+	position:absolute;
+	margin-top: 20px;
+	text-align: center;
+	width: 165px;
+	background: rgb(221, 221, 221);
+}
+.hover li{
+	margin: 9px 0;
+	transition: 0.6s;
+}
+.hover li:hover{
+	background-color: darkgrey;
+	padding: 13px
+}
+.dostavka{
+ width: 70%;
+ margin-left: 41px;
+}
+
+.dostavka img{
+	width: 150px;
+	height: 250px;
+	cursor: pointer;
+}
+.dostavkaOne{
+	display: flex;
+	border: 3px solid rgba(105, 105, 105, 0.11);
+	box-shadow: 3px 1px 9px 1px;
+	margin-bottom: 31px ;
+}
+
+.dostavka-zadolovok{
+	margin: 10px 0;
+	font-size: 23px;
+}
+.dostavka-сontent{
+	margin: 0 23px;
+	font-size: 17px;
+}
+.dostavka-contact-adress{
+font-size: 19px;
+width: 150px
+}
+.dostavka-contact p{
+	padding: 4px;
+  font-size: 17px;
+}
+#number{
+	margin-top: 11px;
+	background-color: brown;
+	text-align: center;
+	width: 100px;
+	cursor: pointer;
+}
+.dostavkaTwo{
+	display: flex;
+	border: 3px solid rgba(105, 105, 105, 0.11);
+	box-shadow: 3px 1px 9px 1px;
+	margin-bottom: 31px ;
+}
+.dostavkaThree{
+	display: flex;
+	border: 3px solid rgba(105, 105, 105, 0.11);
+	box-shadow: 3px 1px 9px 1px;
+	margin-bottom: 31px ;
+}
+.dostavkaFour{
+	display: flex;
+	border: 3px solid rgba(105, 105, 105, 0.11);
+	box-shadow: 3px 1px 9px 1px;
+	margin-bottom: 31px ;
+}
+.dostavkaFive{
+	display: flex;
+	border: 3px solid rgba(105, 105, 105, 0.11);
+	box-shadow: 3px 1px 9px 1px;
+	margin-bottom: 31px ;
+}
+.conteiner-dostavka{
+	display: flex;
+}
+.conteiner-menuTwo{
+	position: relative;
+	margin-right: 25px;
+	font-size: 19px;
+  margin-left: -180px;
+	text-align: left;
+	padding: 10px;
+	cursor: pointer;
+	width: 300px;
+	color: rgb(77, 77, 77);
+}
+.conteiner-menuTwo span:hover{
+	color: rgb(175, 93, 93);
+}
+
+.conteiner-menuTwo h2{
+	font-size: 29px;
+	padding: 10px;
+	width: 300px;
+	margin: 41px 0 30px 0;
+	text-align: left;
+
+}
+.conteiner-menuTwo li:hover{
+	color: rgb(175, 93, 93);
+}
+.sdorove{
+	border-top: 1px solid;
+	padding: 10px;
+}
+.sdorove li{
+	margin-left: 23px;
+  font-size: 15px;
+	padding: 3px;
+}
+.krasota{
+	border-top: 1px solid;
+	padding: 10px;
+}
+.study{
+	border-top: 1px solid;
+	padding: 10px;
+}
+.children{
+	border-top: 1px solid;
+	padding: 10px;
+}
+.house{
+	border-top: 1px solid;
+	padding: 10px;
+}
+.animals{
+	border-top: 1px solid;
+	padding: 10px;
+}
+.car{
+	border-top: 1px solid;
+	padding: 10px;
+}
+.rest{
+	border-top: 1px solid;
+	padding: 10px;
+}
+.shops{
+	border-top: 1px solid;
+	padding: 10px;
+}
+.money{
+	border-top: 1px solid;
+	padding: 10px;
+}
+.uslugi{
+	border-top: 1px solid;
+	padding: 10px;
+}
+.works{
+	border-top: 1px solid;
+	padding: 10px;
+}
+
+.conteiner-menuTwo img{
+	width: 35px;
+	height: 35px;
+	margin-right: 25px ;
+}
+
+.sdorove._acktive .menu__list{
+	display: block;
+}
+.sdorove._acktive .menu__button span:first-child{
+	display: none;
+}
+.sdorove._acktive .menu__button:last-child{
+	display: block;
+}
+.menu__button span:first-child{
+	display: block;
+}
+.menu__button span:last-child{
+	display: none;
+}
+.menu__button{
+	padding: 10px;
+}
+._acktive{
+	display: block;
+}
+._none{
+	display: none;
+}
+.menu__list{
+	display: none;
 }
