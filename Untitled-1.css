@@ -38,344 +38,130 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
+
 body{
- background-image: url('/img/depositphotos_72123829-stock-photo-room-with-pendant-lamp.jpg');
- background-position: 0 0;
- background-size: 100% auto;
- min-width: 1300px;
+background-image: url('/img/sasha.jpg');
+background-repeat: no-repeat;
+background-position: 0 0;
+background-attachment:scroll;
 }
-
-.map{
-  background-color: rgb(255 0 0);
-  color: white;
-  font-size: 19px;
-	text-align: center;
+.login{
+  position: relative;
 }
-
-.map li{
-  display: inline-block;
-  padding: 14px 18px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	cursor: pointer;
-}
-.map li:hover{
-  text-decoration: underline;
-}
-.fotoOne {
-	background-image: url('/img/doL1GzZlpEE.jpg');
-	background-repeat: no-repeat;
-	background-position: 0 0;
-	height: 350px;
-	width: 1348px;
-	background-size: 100% auto;
-	position: relative;
-	padding: 33px;
-}
-.fotoOne h2{
-	color: rgba(250, 28, 28, 0.959);
-	font-size: 28px;
-	padding: 37px  0 9px ;
-}
-.fotoOne h1{
-	font-size: 55px;
-	font-family:Georgia, 'Times New Roman', Times, serif;
-	color: rgba(250, 28, 28, 0.959);
-	text-shadow: 2px 3px green, 1px 2px gold;
-}
-.fotoOne p{
-	font-size: 19px;
-	margin-top: 32px;
-}
-.fotoOne h3{
-	color: rgba(250, 28, 28, 0.959);
-	font-size: 44px;
-	position: absolute;
-	right: 159px;
-	bottom: 47px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-	text-shadow: 2px 4px 4px rgb(28, 36, 100);
+.login p{
+  padding: 12px;
+  right: 30px;
+  color: azure;
+  font-size: 17px;
+  margin-left: 83%;
 }
 .menu{
-	display: block;
-	background-color: rgba(250, 28, 28, 0.959);
-	text-align: center;
-	margin: 0 63px 45px ;
-	border-radius: 12px;
-
+  color: azure;
+}
+.menu ul{
+  display: flex;
+  position: absolute;
+  right: 30px;
 }
 .menu li{
-	display: inline-block;
-	padding: 13px;
-	font-size: 21px;
-	transition: 1s;
+  padding: 14px 15px;
+  font-size: 19px;
+  text-align: center;
+  background-color: rgb(73, 4, 4);
+  width: auto;
+  border: solid 1px rgb(83, 5, 5);
 }
 .menu li:hover{
-	background-color: rgb(194, 0, 0);
-	cursor: pointer;
+  background-color: rgb(56, 15, 15);
+  color: aliceblue;
 }
-.franshiza{
-	display: flex;
-	height: 400px;
-	background-color: #fff;
-	margin: 0 63px;
-	border-radius: 12px;
-}
-.franshiza p{
-	font-size: 18px;
-	margin-left: 20px;
-}
-.imgGerl img{
-	height: 400px;
-	cursor: pointer;
-}
-.franshizaImg img{
-	margin: 45px 150px ;
-	cursor: pointer;
-}
-.yarlak{
-	display: flex;
-	flex-wrap: wrap;
-	color: white;
-	margin: 43px;
-	text-align: left;
-}
-.yarlak img{
-	padding: 41px 0 35px;
-}
-.yarlakOne{
-flex: 0 0 50%;
-}
-.yarlakTwo{
-	flex: 0 0 50%;
-}
-.yarlak h2{
-	font-size: 30px;
-	margin: 14px 0;
-}
-.yarlak p{
-	font-size: 21px;
+.prise{
+  display: flex;
+  justify-content: center;
+  margin-top: 9%;
+  border-radius: 25px;
 }
 
-.tour{
-	display: flex;
-	justify-content: center;
-	height: 200px;
-	padding: 23px 0;
-}
-.club{
-	color: white;
-	text-align: center;
-	font-size: 32px;
-	cursor: pointer;
-	border-bottom: 3px solid rgb(253, 216, 3);
-	margin: auto;
-	padding-bottom: 7px;
-	width: 170px;
+.prise li{
+  padding: 9px;
+  font-size: 21px;
 }
 
-.addressImg{
-	display:flex;
-	position: absolute;
-	margin: 70px 120px;
-  padding-right: 4px;
-	color: rgb(255, 255, 255);
-	text-align: center;
+.conteinerPrise1 {
+  background-color: rgba(148, 5, 5, 0.685);
+  display: flex;
 }
 
+.conteinerPrise2{
+  background-color: rgba(148, 5, 5, 0.685);
+  display: flex;
+}
+.conteinerPrise3{
+  background-color: rgba(148, 5, 5, 0.685);
+  display: flex;
+}
+h2 {
+  font-size: 24px;
+  text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgba(148, 5, 5, 0.685);
+  padding: 14px;
+  border: solid 0 2px 0 2px;
+}
+
+.prise p{
+  padding: 14px 0 14px 9px;
+  font-size: 26px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button{
+  padding: 9px 19px;
+  border-radius: 25px;
+  font-size: 22px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+  font-size: 37px;
+  border-bottom: 4px dashed rgba(32, 0, 0, 0.788) ;
+  margin: 23px ;
+  color: rgb(156, 153, 238);
+}
+.conteinerText{
+  display: flex;
+  justify-content: center;
+  
+}
 .text{
-	position: relative;
-	font-size: 23px;
-	top: 19%;
+  width: 300px;
+  height: 200px;
+  color: beige;
 }
-
-.imgOne{
-	background-image: url(/img/one.jpg);
-	background-repeat: no-repeat;
-	width: 350px;
-	height: 250px;
-	border: 3px solid red;
-	background-size: 100% 100%;
-	margin-bottom: 7px;
-	cursor: pointer;
-	border-radius: 10px;
+.text p{
+  font-size: 20px;
 }
-.imgOne :hover{
-	text-shadow: 2px 1px yellow;
-	width: 400px;
-	height: 350px;
+h3{
+  font-size: 29px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 9px;
 }
-
-.imgTwo{
-	background-image: url(/img/two.jpg);
-	background-repeat: no-repeat;
-	width: 350px;
-	height: 250px;
-	border: 3px solid red;
-	position: 0 0 ;
-	background-size: 100% 100%;
-	margin-bottom: 7px;
-	cursor: pointer;
-	border-radius: 10px;
+.conteinerTextTwo{
+  display: flex;
+  justify-content: center;
 }
-.imgTwo :hover{
-	text-shadow: 2px 1px yellow;
+.textTwo{
+  width: 300px;
+  height: 200px;
+  color: beige;
 }
-.imgTree{
-	background-image: url(/img/thee.jpg);
-	background-repeat: no-repeat;
-	width: 350px;
-	height: 250px;
-	border: 3px solid red;
-	position: 0 0 ;
-	background-size: 100% 100%;
-	margin-bottom: 7px;
-	cursor: pointer;
-	border-radius: 10px;
+.textTwo p{
+  font-size: 20px;
 }
-.imgTree :hover{
-	text-shadow: 2px 1px yellow;
+.conteinerOne{
+  border-radius: 25px;
+  margin-left: 5px;
 }
-.imgFour{
-	background-image: url(/img/four.jpg);
-	background-repeat: no-repeat;
-	width: 350px;
-	height: 250px;
-	border: 3px solid red;
-	position: 0 0 ;
-	background-size: 100% 100%;
-	margin-bottom: 7px;
-	cursor: pointer;
-	border-radius: 10px;
-}
-.imgFour :hover{
-	text-shadow: 2px 1px yellow;
-}
-.imgFive{
-	background-image: url(/img/five.jpg);
-	background-repeat: no-repeat;
-	width: 350px;
-	height: 250px;
-	border: 3px solid red;
-	position: 0 0 ;
-	background-size: 100% 100%;
-	margin-bottom: 7px;
-	cursor: pointer;
-	border-radius: 10px;
-}
-.imgFive :hover{
-	text-shadow: 2px 1px yellow;
-}
-.imgSix{
-	background-image: url(/img/six.jpg);
-	background-repeat: no-repeat;
-	width: 350px;
-	height: 250px;
-	border: 3px solid red;
-	position: 0 0 ;
-	background-size: 100% 100%;
-	margin-bottom: 7px;
-	cursor: pointer;
-	border-radius: 10px;
-}
-.imgSix :hover{
-	text-shadow: 2px 1px yellow;
-}
-.imgSeven{
-	background-image: url(/img/siven.jpg);
-	background-repeat: no-repeat;
-	width: 350px;
-	height: 250px;
-	border: 3px solid red;
-	position: 0 0 ;
-	background-size: 100% 100%;
-	margin-bottom: 7px;
-	cursor: pointer;
-	border-radius: 10px;
-}
-.imgSeven :hover{
-	text-shadow: 2px 1px yellow;
-}
-.imgEitch{
-	background-image: url(/img/eichi.jpg);
-	background-repeat: no-repeat;
-	width: 350px;
-	height: 250px;
-	border: 3px solid red;
-	position: 0 0 ;
-	background-size: 100% 100%;
-	margin-bottom: 7px;
-	cursor: pointer;
-	border-radius: 10px;
-}
-.imgEitch :hover{
-	text-shadow: 2px 1px yellow;
-}
-.imgNine{
-	background-image: url(/img/nine.jpg);
-	background-repeat: no-repeat;
-	width: 350px;
-	height: 250px;
-	border: 3px solid red;
-	position: 0 0 ;
-	background-size: 100% 100%;
-	margin-bottom: 7px;
-	cursor: pointer;
-	border-radius: 10px;
-}
-.imgNine :hover{
-	text-shadow: 2px 1px yellow;
-}
-.imgTen{
-	background-image: url(/img/ten.jpg);
-	background-repeat: no-repeat;
-	width: 350px;
-	height: 250px;
-	border: 3px solid red;
-	position: 0 0 ;
-	background-size: 100% 100%;
-	margin-bottom: 7px;
-	cursor: pointer;
-	border-radius: 10px;
-}
-.imgTen :hover{
-	text-shadow: 2px 1px yellow;
-}
-.imgEleven{
-	background-image: url(/img/eleven.jpg);
-	background-repeat: no-repeat;
-	width: 350px;
-	height: 250px;
-	border: 3px solid red;
-	position: 0 0 ;
-	background-size: 100% 100%;
-	margin-bottom: 7px;
-	cursor: pointer;
-	border-radius: 10px;
-}
-.imgEleven :hover{
-	text-shadow: 2px 1px yellow;
-}
-.imgTwel{
-	background-image: url(/img/twel.jpg);
-	background-repeat: no-repeat;
-	width: 350px;
-	height: 250px;
-	border: 3px solid red;
-	position: 0 0 ;
-	background-size: 100% 100%;
-	margin-bottom: 7px;
-	cursor: pointer;
-	border-radius: 10px;
-}
-.imgTwel :hover{
-	text-shadow: 2px 1px yellow;
-}
-.addressImgOne{
-	margin-right: 7px;
-}
-.addressImgTwo{
-	margin-right: 7px;
-}
-.addressImgTree{
-	margin-right: 7px;
+.finishText{
+  color: beige;
+  font-size: 35px;
+  margin-bottom: 213px;
 }
